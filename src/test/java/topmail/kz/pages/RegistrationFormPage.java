@@ -53,8 +53,8 @@ public class RegistrationFormPage {
         return this;
     }
     //set Gender
-    public RegistrationFormPage setGender(String Gender) {
-        $x("//*[@id='genterWrapper']//label[text() ='"+Gender+"']").click();
+    public RegistrationFormPage setGender(String gender) {
+        $x("//*[@id='genterWrapper']//label[text() ='"+gender+"']").click();
 
         return this;
     }
